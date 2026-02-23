@@ -19,10 +19,10 @@ function App() {
   return (
     <>
  
-    {/* <About />
+ <About />
      <Services2 />
     <Nav />  
-     <Login /> */}
+     <Login /> 
 
   <Link to="/home">
     <div >
