@@ -7,6 +7,7 @@ import Nav from './components/Nav/Nav'
 import About from './components/about/About'
 import Services2 from './components/Services/Services2'
 import Login from './components/login/Login'
+import img from './assets/img/catjpeg.jpeg'
 // import Index from './Index2'
 
 
@@ -26,7 +27,7 @@ function App() {
      <Login /> */}
 
  
- <About />
+ {/* <About />
      <Services2 />
     <Nav />  
      <Login /> 
@@ -42,8 +43,10 @@ function App() {
       <Route path='/home' element= {<Home />}/>
 
       {/* <Route path='/a' element={} /> */}
-      <Route path='/hello' element={<h1>hello world</h1>}/>
-    </Routes> 
+      {/* <Route path='/hello' element={<h1>hello world</h1>}/> */} 
+
+      <img src={img} alt="" />
+    
     
     </>
   )
