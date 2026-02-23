@@ -18,11 +18,11 @@ function App() {
 
   return (
     <>
-    <h1>hello</h1>
-    <About />
+ 
+    {/* <About />
      <Services2 />
     <Nav />  
-     <Login />
+     <Login /> */}
 
   <Link to="/home">
     <div >
