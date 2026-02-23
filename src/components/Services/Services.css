@@ -1,0 +1,116 @@
+.top-sec-serv{
+    display: flex;
+    justify-content: center;
+    color: #4db5ff;
+}
+
+.package {
+  width: 200px;
+  height: 254px;
+  background-image: linear-gradient(163deg, #ff00ff 0%, #3700ff 100%);
+  border-radius: 20px;
+  text-align: center;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+  display: none;
+}
+
+.package:hover {
+  box-shadow: 0px 0px 30px 1px rgba(204, 0, 255, 0.3);
+}
+
+.package2 {
+  width: 200px;
+  height: 254px;
+  background-color: #3b0c71;
+  border-radius: 10px;
+  transition: all 0.25s cubic-bezier(0, 0, 0, 1);
+  padding: 15px;
+  cursor: pointer;
+  display: none;
+}
+
+.package2:hover {
+  transform: scale(0.98);
+  border-radius: 18px;
+}
+
+.serv-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* width: 30%; */
+    gap: 1.5rem;
+    margin:20px 
+}
+
+.serv-icon{
+    font-size: 2rem;
+}
+
+.text{
+    margin-top: 4px;
+}
+
+.card {
+
+width:200px;
+
+height: 254px;
+
+background: #3b0c71;
+position: relative;
+display: flex;
+place-content: center;
+place-items: center;
+overflow: hidden;
+border-radius: 20px;}
+
+.cont{
+    
+    z-index: 1;
+color: white;
+font-size: 1rem ;
+}
+
+/* .card h2 {
+
+z-index: 1;
+
+color: white;
+
+font-size: 2em;} */
+
+.card::before{
+
+content: '';
+
+position: absolute;
+
+width: 100px;
+
+Background-image: linear-gradient(180deg,rgb(0, 183, 255),rgb(255, 48, 255));
+
+height: 130%;
+
+animation: rotBGimg 5s linear infinite;
+transition: all .3S linear;
+}
+
+@keyframes rotBGimg {
+
+from{
+
+transform: rotate(0deg);}
+
+to {
+
+transform: rotate(360deg);
+}}
+
+.card::after {
+content:'';
+position: absolute;
+background: #3b0c71;
+inset: 5px;
+
+border-radius: 15px;}
